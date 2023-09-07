@@ -222,6 +222,15 @@ border-color: var(--primary--color);
     background: #16df7e;
     border-color: #fff;
   }
+  /*Question*/
+  .Question .Qtol i {
+    transition: .3s;
+   }
+   .Question .Qtol:hover i {
+     transform: rotate(-45deg);
+     color: #0f0f0f ;
+   }
+  /*FOOTER*/
  footer.py-3{
   background-color: var(--primary--color);
  }
