@@ -55,6 +55,18 @@ border-color: var(--primary--color);
 /*CSS PER SECTION*/
 
 /*navbar*/
+.navbar a{
+	font-weight: 500;
+	padding: 10px 22px;
+	border-radius: 4px;
+	transition: ease .40s;
+}
+.navbar a:hover{
+	background: #edf0f1;
+	color: var(--text-color);
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	border-radius: 4px;
+}
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active{
  color: var(--primary--color);
@@ -180,6 +192,18 @@ border-color: var(--primary--color);
     margin: 5%;
   }
   /*Why Use*/
+#why .col-md-4{
+  position: relative;
+	transition: all .3s cubic-bezier(.445,.05,.55,.95);
+	will-change: filter;
+	cursor: pointer;
+	
+}
+#why .col-md-4:hover{
+	filter: brightness(60%) hue-rotate(5deg);
+	transform: scale(1.04);
+}
+  /*testimonial*/
   .testimonial-section .card-img-top{
     height:220px;
     width: 100%;
