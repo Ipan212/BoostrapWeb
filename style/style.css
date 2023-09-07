@@ -36,6 +36,9 @@ section .section-title{
     background-color: var(--primary--color);
     color: white;
 }
+.btn-orange:hover{
+background-color: #16df7e;
+}
 .text-orange {
     color: var(--primary--color);
 }
@@ -177,9 +180,6 @@ border-color: var(--primary--color);
     margin: 5%;
   }
   /*Why Use*/
-  #projects{
-
-  }
   .testimonial-section .card-img-top{
     height:220px;
     width: 100%;
@@ -222,4 +222,7 @@ border-color: var(--primary--color);
     background: #16df7e;
     border-color: #fff;
   }
+ footer.py-3{
+  background-color: var(--primary--color);
+ }
   
